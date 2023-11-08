@@ -18,7 +18,8 @@ float compare_matrices(int, int, float *, int, float *, int);
 
 double dclock();
 
-int main() {
+int main() 
+{
     // print gpu info
     cudaDeviceProp deviceProp;
     int devID = 0;
